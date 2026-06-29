@@ -3,17 +3,17 @@ Service Marketplace with Gig Listings, Booking, Escrow Payments, Moderation, Sch
 
 ## 🛠️ Tech Stack
 ### Frontend
-•	Framework: React 18 (UI Librry)
-• Routing: React Router DOM v6
-• HTTP Client: Axios
-• Styling: Custom CSS
+- Framework: React 18 (UI Librry)
+- Routing: React Router DOM v6
+- HTTP Client: Axios
+- Styling: Custom CSS
 
 ### Backend
-•	Runtime: Node.js
-• Framework: Express.js
-•	Database: MongoDB (Mongoose)
-•	Authentication: JSON Web Tokens (JWT) & Bcryptjs
-•	Validation: express-validator
+- Runtime: Node.js
+- Framework: Express.js
+- Database: MongoDB (Mongoose)
+- Authentication: JSON Web Tokens (JWT) & Bcryptjs
+- Validation: express-validator
 
 ---
 
@@ -84,26 +84,30 @@ adflow-pro/
 ```
 ## 🚀 Commands to Run Properly
 ### Backend Setup
+```bash
 cd adflow-pro/backend
-
+```
 Install dependencies:
+```bash
 npm install
-
-Create your .env file from the example:
-cp .env.example .env
-(Then open .env and set your MONGO_URI and JWT_SECRET)
-
+```
 Run in development mode:
+```bash
 npm run dev
+```
 
 ### Frontend Setup
+```bash
 cd adflow-pro/frontend
-
+```
 Install dependencies:
+```bash
 npm install
-
+```
 Start the dev server:
+```bash
 npm start
+```
 
 
 ## Core Concepts
