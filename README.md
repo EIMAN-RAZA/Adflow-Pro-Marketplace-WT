@@ -14,6 +14,7 @@ Service Marketplace with Gig Listings, Booking, Escrow Payments, Moderation, Sch
 - Database: MongoDB (Mongoose)
 - Authentication: JSON Web Tokens (JWT) & Bcryptjs
 - Validation: express-validator
+- Environment Variables: dotenv
 
 ---
 
@@ -45,7 +46,7 @@ adflow-pro/
 │   ├── middleware/
 │   │   └── auth.js
 │   │
-│   ├── .env.example
+│   ├── .env
 │   ├── package.json
 │   └── server.js
 │
@@ -111,10 +112,10 @@ npm start
 
 
 ## Core Concepts
-• Only approved services (gigs) are visible publicly 
-• Providers define pricing, delivery time, and service scope 
-• Clients place orders against gigs, not random listings 
-• Payments are handled using escrow-style verification (simulated) 
-• Orders follow a strict lifecycle workflow (order → progress → delivery → completion) 
-• Automation handles deadlines, reminders, completion, and system health
+- Only approved services (gigs) are visible publicly
+- Providers define pricing, delivery time, and service scope
+- Clients place orders against gigs, not random listings
+- Payments are handled using escrow-style verification (simulated)
+- Orders follow a strict lifecycle workflow (order → progress → delivery → completion)
+- Automation handles deadlines, reminders, completion, and system health
 
